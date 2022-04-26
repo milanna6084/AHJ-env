@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/AHJ-events',
+    publicPath: './main.js',
   },
   module: {
     rules: [
