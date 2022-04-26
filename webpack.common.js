@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './main.js',
+    publicPath: './',
   },
   module: {
     rules: [
